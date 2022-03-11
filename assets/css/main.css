@@ -1,0 +1,124 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+/*elementos base*/
+body{
+   background: var(--preto);
+   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+   color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 35px;
+}
+
+header .anuncio{
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: unset;
+    
+}
+
+
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 120%;
+    
+}
+
+header nav a:hover{
+    color: rgba(196, 195, 195, 0.667);
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 25px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/assets/css/image/perfil4.png");
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}   
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border-radius: 10pt;
+    color: white;
+
+    padding: 20px 40px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 60%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+    height: 20px;
+}
+.faixa{
+    margin-left: 30px;
+    background-color: rgba(0,0,0,.50)
+}
