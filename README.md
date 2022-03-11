@@ -1,2 +1,2 @@
-# clone-netflix
- Landpage clone da netflix
+# Cloneflix
+ Este foi um projeto de criação de uma landpage clone da Netflix
